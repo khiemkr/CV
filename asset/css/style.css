@@ -1,0 +1,139 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 62,5%;
+    line-height: 1.6rem;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 72px;
+    background-color: #FF8553;
+    margin: 0;
+}
+.header_list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.header_nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px;
+}
+h1{
+    margin: 0;
+    color: white;
+    position: relative;
+    left: 80px;
+    top:4px;
+}
+.header_talk{
+    min-width: 168px;
+    height: 48px;
+    background-color: #FF8553;
+    border: 1px solid;
+    border-radius: 24px;
+    color: white;
+    position: relative;
+    right: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+.header_talk p{
+    position: relative;
+    bottom: 8px;
+}
+.content{
+    /* background-color:#FF8553 ; */
+}
+.content_intro{
+    background-color:#FF8553 ;
+    
+}
+.header_intro{
+    padding-top: 200px;
+    display: flex;
+    flex: 1;
+}
+.border_img{
+    width: 40%;
+    /* height: 320px;
+    border:4px solid;
+    border-radius: 50%;
+    color: white; */
+}
+.img_avatar{
+    position: relative;
+    top: 5.5px;
+    left: 5.7px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.intro_content{
+    flex: 2;
+    width: 60%;
+}
+.intro_content-header{
+    position: relative;
+    top: 20px;
+    /* font-size: 48px; */
+    color: white;
+    left: 82px;
+}
+.contact_intro{
+    padding: 40px 0;
+    text-align: center;
+}
+.contact_intro h4{
+    color: white;
+    font-size: 20px;
+}
+.contact_intro h3{
+    color: white;
+    font-size: 28px;
+}
+.row h1{
+    color: black;
+    margin: 40px;
+}
+.experties_list{
+    min-height: 352px;
+    text-align: center;
+    border-right: 0.5px solid #ccc;
+    border-bottom: 0.5px solid #ccc;
+}
+/* .experties_icon{
+    font-size: 100px;
+    position: relative;
+    right: 254px;
+    color: #ccc;
+    margin-bottom: 12px;
+     */
+
+.experties_content-header{
+    margin: 0;
+    padding: 0;
+}
+.experties_content{
+    text-align: left;
+}
+.experties_content-header{
+    font-size: 28px;
+    margin: 8px 0;
+    font-family: -webkit-body;
+    font-weight: bold;
+}
+.experties_content-desc{
+    font-size: 24px;
+    font-family: -webkit-pictograph;
+}
