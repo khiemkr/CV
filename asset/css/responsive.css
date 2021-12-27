@@ -11,11 +11,23 @@
     nav{
         display: none;
     }
+    h1 {
+        position: relative;
+        left: 28px;
+    }
     .header_talk{
         display: none;
     }
     .header_intro {
         padding-top: 68px;
+    }
+    .header_icon{
+        display: block;
+        font-size: 32px;
+        color: white;
+        position: relative;
+        right: 16px;
+        top: 4px;
     }
     .img_avatar {
         position: relative;
@@ -70,10 +82,30 @@
         height: 168px;
         border-radius: 12px;
         box-shadow: 0 0 5px rgb(42 42 42 / 50%);
-        margin-left: -24px;
+        margin-left: -34px;
         }
     .experties_icon {
         font-size: 81px;
         margin-left: 180px;
+    }
+    .contact_info--item {
+        font-size: 20px;
+        margin: 12px 4px 0;
+        color: #2a2a2a;
+    }
+    .footer {
+        background-color: #2a2a2a;
+        margin-top: 42px;
+    }
+    .col.l-6.l-o-3.c-12.footer_icon {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .footer_icon i {
+        margin-bottom: 48px;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 32px;
+        color: #ccc;
     }
 }
