@@ -1,0 +1,79 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+/* tablet */
+@media(min-width: 740px) and (max-width: 1023){
+
+}
+/* Mobile */
+@media(max-width: 740px){
+    nav{
+        display: none;
+    }
+    .header_talk{
+        display: none;
+    }
+    .header_intro {
+        padding-top: 68px;
+    }
+    .img_avatar {
+        position: relative;
+        top: 5.5px;
+        left: 5.7px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        left: 24px;
+    }
+    .contact_intro {
+        padding: 0;
+        text-align: left;
+        margin: 10px 0;
+    }
+    .contact_intro h4 {
+        color: white;
+        font-size: 20px;
+        margin: 0;
+    }
+    .contact_intro h3 {
+        color: white;
+        font-size: 16px;
+        margin: 0;
+
+    }
+    .experties_content {
+        text-align: left;
+        position: relative;
+        left: 0;
+    }
+    .intro_content-header {
+        color: white;
+        font-size: 24px;
+        line-height: 48px;
+        padding-top: 32px;
+        padding-bottom: 48px;
+    }
+    .background{
+        position: absolute;
+    }
+    .about_tool-item{
+        margin: 4px auto;
+        width: 50%;
+        text-align: center;
+    }
+    .highlight{
+        display: none;
+    }
+    .about_tool-item img {
+        width: 168px;
+        height: 168px;
+        border-radius: 12px;
+        box-shadow: 0 0 5px rgb(42 42 42 / 50%);
+        margin-left: -24px;
+        }
+    .experties_icon {
+        font-size: 81px;
+        margin-left: 180px;
+    }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
     <link rel="stylesheet" href="./asset/font/fontawesome-free-5.15.3-web/css/all.min.css">
     <title>TRUONGVINHKHIEM_CV</title>
 </head>
@@ -15,9 +16,10 @@
             <h1>VinhKhiem</h1>
             <nav class="header_nav">
                 <a href="#" class="header_nav-link">Home</a>
-                <a href="#" class="header_nav-link">About</a>
-                <a href="#" class="header_nav-link">Work</a>
-                <a href="#" class="header_nav-link">Contact</a>
+                <a href="#about" class="header_nav-link">About</a>
+                <a href="#project" class="header_nav-link">Project</a>
+                <a href="#work" class="header_nav-link">Work</a>
+                <a href="#contact" class="header_nav-link">Contact</a>
             </nav>
             <div class="header_talk">
                 <p>
@@ -27,99 +29,309 @@
         </div>
     </header>
     <div class="content">
-        <div class="grid">
-            <div class="content_intro">           
+        <div class="content_intro">
+            <div class="grid wide">      
                     <div class="row header_intro">
-                        <div class="border_img">
+                        <div class="col l-4 c-12 ">
                             <img src="./asset/img/IMG_20210509_172819.jpg" alt="" class="img_avatar">
                         </div>
-                        <div class="intro_content">
-                            <p class="intro_content-header">
-                                My name is Truong Vinh Khiem.
-                            </p>
-                            <p class="intro_content-header">
-                                Front-end Deverlop
-                            </p>
+                        <div class="col l-8 c-12">
+                            <div class="intro_content-header">
+                                My name is Truong Vinh Khiem
+                                Front-End deverlop
+                            </div>
                         </div>
-                    </div>
-                    <!-- <div class="row">
-                        <div class="c-4 contact_intro">
+                    </div>          
+                    <div class="row contact_intro">
+                        <div class="col l-4 c-6 contact_intro">
                             <h4>deverlop for</h4>
                             <h3>Website and mobile</h3>
                         </div>
-                        <div class="c-4 contact_intro">
+                        <div class="c-4 l-4 c-6 contact_intro">
                             <h4>Phone</h4>
                             <h3>(+84) 948 633 364</h3>
                         </div>
-                        <div class="c-4 contact_intro">
+                        <div class="c-4 l-4 c-6 contact_intro">
                             <h4>Email</h4>
                             <h3>vinhkhiems9@gmail.com</h3>
                         </div>
-                    </div> -->
+                    </div>
                 
             </div>
-            <!-- <div class="content_experties">
-                <div class="grid wide">
-                    <div class="row">
-                        <h1>My Experties</h1>
+        </div>
+        <div id="work" class="content_experties">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="title">
+                        My Expertices
                     </div>
-                    <div class="row">
-                        <div class="c-12 l-6 m-6 experties_list">
-                            <i class="experties_icon fas fa-columns"></i>
-                            <div class="experties_content">
-                                <p class="experties_content-header">
-                                    HTML,CSS,JAVASCRIPT
-                                </p>
-                                <p class="experties_content-desc">
-                                    Use composition from basic to advanced HTML5,CSS3 and ES6
-                                </p>
-                            </div>
-                        </div>
-                        <div class="c-12 l-6 m-6 experties_list">
-                            <i class="experties_icon fab fa-react"></i>
-                            <div class="experties_content">
-                                <p class="experties_content-header">
-                                    REACTJS,NODEJS
-                                </p>
-                                <p class="experties_content-desc">
-                                    Use composition from basic to advanced HTML5,CSS3 and ES6
-                                </p>
+                </div>
+                <div class="row">
+                    <div class="c-12 l-6 experties_list">
+                        <i class="experties_icon fas fa-columns"></i>
+                        <div class="experties_content">
+                            <p class="experties_content-header">
+                                HTML,CSS,JAVASCRIPT
+                            </p>
+                            <br>            
+                            <p class="experties_content-desc">
+                                Use composition from basic to advanced HTML5,CSS3 and ES6
+                            </p>
+                            <div class="experties_content--position">
+                                <p>fresher</p>
+                                <div></div>
                             </div>
                         </div>
                     </div>
-                    <div class="row"> 
-                        <div class="c-12 l-6 m-6 experties_list">
-                            <i class="experties_icon fas fa-desktop"></i>
-                            <div class="experties_content">
-                                <p class="experties_content-header">
-                                    .NET/C#
-                                </p>
-                                <p class="experties_content-desc">
-                                    Use composition from basic to advanced HTML5,CSS3 and ES6
-                                </p>
-                            </div>
-                        </div>
-                        <div class="c-12 l-6 m-6 experties_list">
-                            <i class="experties_icon fas fa-database"></i>
-                            <div class="experties_content">
-                                <p class="experties_content-header">
-                                    SQLServer,MySQL
-                                </p>
-                                <p class="experties_content-desc">
-                                    Use composition from basic to advanced HTML5,CSS3 and ES6
-                                </p>
+                    <div class="c-12 l-6 experties_list">
+                        <i class="experties_icon fab fa-react"></i>
+                        <div class="experties_content">
+                            <p class="experties_content-header">
+                                REACTJS,NODEJS
+                            </p>
+                            <p class="experties_content-desc">
+                                Use composition from basic to advanced HTML5,CSS3 and ES6
+                            </p>
+                            <div class="experties_content--position">
+                                <p>fresher</p>
+                                <div></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
-            <div class="content_project">
-                
+                <div class="row"> 
+                    <div class="c-12 l-6 experties_list">
+                        <i class="experties_icon fas fa-desktop"></i>
+                        <div class="experties_content">
+                            <p class="experties_content-header">
+                                .NET/C#
+                            </p>
+                            <p class="experties_content-desc">
+                                Use composition from basic to advanced HTML5,CSS3 and ES6
+                            </p>
+                            <div class="experties_content--position">
+                                <p>fresher</p>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-12 l-6 experties_list add_border">
+                        <i class="experties_icon fas fa-database"></i>
+                        <div class="experties_content">
+                            <p class="experties_content-header">
+                                SQLServer,MySQL
+                            </p>
+                            <p class="experties_content-desc">
+                                Use composition from basic to advanced HTML5,CSS3 and ES6
+                            </p>
+                            <div class="experties_content--position">
+                                <p>fresher</p>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="project" class="My_Project">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="title">
+                        My Project
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-6 c-12">
+                        <a href="#" class="project_link">
+                            <div class="project_img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-6 c-12">
+                        <a href="#" class="project_link">
+                            <div class="project_img1">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-6 c-12">
+                        <a href="#" class="project_link">
+                            <div class="project_img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-6 c-12">
+                        <a href="#" class="project_link">
+                            <div class="project_img1">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="about_me">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="title">
+                        About Me
+                    </div>
+                </div>
+                <div class="overlay">
+                   <div class="background">
+                   </div>
+                   <div class="row">
+                       <div class="col l-6 c-12 about_text">
+                        <span>Tool:</span>
+                        <p>Can use IDEs and source code management applications during work,
+                        some of which include Visual Studio Code, Github and Visula Studio</p>
+                        <span>Advantages:</span>
+                        <p>Ability to learn many new technologies, ability to work in a team</p>
+                        <span>Orientation:</span>
+                        <p>Learn more skills to develop into fullstack deverlop</p>
+                    </div>
+                       <div class="col l-6 c-12 about_text">
+                           <div class="about_progressbar--text">
+                               <span>
+                                   Visual Studio Code
+                               </span>
+                               <span>
+                                    80%
+                                </span>
+                           </div>
+                            <div class="about_progressbar">
+                                <div class="about_progressbar-percent"></div>
+                            </div>
+                            <div class="about_progressbar--text">
+                                <span>
+                                    Git
+                                </span>
+                                <span>
+                                     60%
+                                 </span>
+                            </div>
+                            <div class="about_progressbar">
+                                <div class="about_progressbar-percentgit"></div>
+                            </div>
+                            <div class="about_progressbar--text">
+                                <span>
+                                    Visual Studio
+                                </span>
+                                <span>
+                                     50%
+                                 </span>
+                            </div>
+                            <div class="about_progressbar">
+                                <div class="about_progressbar-percentvs"></div>
+                            </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="row">
+                    <div class="col l-2 c-6 about_tool">
+                        <div class="about_tool-item">
+                            <img src="./asset/img/vs-code.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-2 c-6 about_tool">
+                        <div class="about_tool-item">
+                            <img src="./asset/img/microsoftvs.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-2 c-6 about_tool">
+                        <div class="about_tool-item">
+                            <img src="./asset/img/sql.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-2 c-6 about_tool">
+                        <div class="about_tool-item">
+                            <img src="./asset/img/github.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-2 c-6 about_tool">
+                        <div class="about_tool-item">
+                            <img src="./asset/img/vs-code.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-2 c-6 about_tool">
+                        <div class="about_tool-item">
+                            <img src="./asset/img/vs-code.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="title">
+                        Contact Me
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-6 c-12 contact_input">
+                        <form action="" class="contact_form">
+                            <div class="row">
+                                <div class="col l-6 c-6">
+                                    <input type="text" class="contact_form--item" placeholder="Name of you">
+                                </div>
+                                <div class="col l-6 c-6">
+                                    <input type="email" class="contact_form--item" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l-12 c-12">
+                                    <input type="text" class="contact_form--item" placeholder="Messenge">
+                                    <input type="submit" class="contact_form--item submit" value="SEND">    
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col l-6 c-12 contact_info">
+                        <p class="contact_info--item"> 
+                            <i class="fas fa-map-marker-alt"></i> 
+                            <span>
+                                Can Tho,Viet Nam
+                            </span>
+                        </p>
+                        <p class="contact_info--item"> 
+                            <i class="fas fa-phone"></i> 
+                            <span>
+                                Phone: +84 94863364
+                            </span>
+                        </p>
+                        <p class="contact_info--item"> 
+                            <i class="far fa-envelope"></i> 
+                            <span>
+                                Email: vinhkhiems9@mail.com
+                            </span>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <footer class="footer">
-
+        <div class="grid wide footer_background">
+            <div class="row">
+                <div class="col l-6 l-o-3 c-12">
+                    <div class="row ">
+                        <div class="footer_header">
+                            Design By Khiem
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-6 l-o-3 c-12 footer_icon">
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-instagram-square"></i>
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fab fa-youtube-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script src="./asset/js/main.js"></script>
 </body>
 </html>
