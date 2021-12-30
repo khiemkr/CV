@@ -38,5 +38,30 @@ function removehightlight(){
 
 trigger.forEach(e => e.addEventListener('mouseenter',hightlight))
 trigger.forEach(a => a.addEventListener('mouseleave',removehightlight))
+// active tab
+
+const active = document.querySelectorAll('.header_nav-link');
+const line = document.querySelector('.line');
+
+line.style.left = active.offsetLeft + "px";
+line.style.width = active.offsetWidth + "px";
+function activenav (){
+    console.log(line.style.left)
+    this.classList.add('.line')
+}
+active.forEach(e => e.addEventListener('mouseenter',activenav))
+// show header mobile
+
+const navmobile = document.querySelector('.header_icon');
+const header_nav = document.querySelector('.header_nav');
+
+function shownav(){
+    console.log(this);
+    console.log(header_nav)
+    header_nav.classList.toggle('open');
+}
 
 
+
+
+navmobile.addEventListener('click',shownav);

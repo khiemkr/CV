@@ -16,6 +16,7 @@ body{
     height: 72px;
     background-color: #FF8553;
     margin: 0;
+    display: flex;
 }
 .header.open{
     box-shadow: 0 5px 5px rgba(42, 42, 42,0.5);
@@ -28,6 +29,51 @@ body{
     justify-content: space-between;
     padding-top: 16px;
 }
+.header_nav {
+    position: relative;
+    left: 364px;
+    top: 8px;
+    display: flex;
+}
+li{
+    list-style: none;
+    color: #FF8553;
+}
+.subnav{
+    display: none;
+    flex-flow: column;
+    background-color: white;
+    color: #FF8553;
+    position: relative;
+    top:16px;
+}
+.subnav:hover{
+    display: block;
+    cursor: pointer;
+}
+.subnav li {
+    text-align: center;
+    position: relative;
+    left: -18px;
+    margin: 12px;
+}
+.subnav li a{
+    color: #FF8553;
+}
+.header_nav-link{
+    left: 0;
+    width: 0;
+}
+.line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    border-radius: 15px;
+    background-color: white;
+    transition: all 0.2s ease;
+  }
 .header_nav a{
     text-decoration: none;
     color: white;
@@ -40,7 +86,7 @@ h1{
     color: white;
     position: relative;
     left: 80px;
-    top:4px;
+    top:20px;
     font-family: cursive;
 }
 .header_talk{
@@ -51,10 +97,11 @@ h1{
     border-radius: 24px;
     color: white;
     position: relative;
-    right: 80px;
+    left: 682px;
     text-align: center;
     font-size: 18px;
     font-family: cursive;
+    top: 12px;
 }
 .header_talk:hover{
     background-color: white;
@@ -200,7 +247,10 @@ h1{
     font-size: 20px;
     font-family: cursive;
 }
-.project_img{
+.project_img,
+.project_img1,
+.project_img2,
+.project_img3{
     background-image: url('../img/project1.png');
     padding-top: 50%;
     background-size: contain;
@@ -213,15 +263,12 @@ h1{
 }
 .project_img1{
     background-image: url('../img/project2.png');
-    padding-top: 50%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 24px;
-    margin: 24px 0;
-    box-shadow: 0 0 5px rgba(42, 42, 42,0.5);
-
-
+}
+.project_img2{
+    background-image: url('../img/project3.png');
+}
+.project_img3{
+    background-image: url('../img/project4.png');
 }
 .highlight {
     transition: all 0.2s;
@@ -338,4 +385,7 @@ span{
     margin-left: 24px;
     font-size: 48px;
     color: #ccc;
+}
+a{
+    text-decoration: none;
 }

@@ -12,23 +12,35 @@
 </head>
 <body>
     <header class="header">
-        <div class="header_list">
-            <h1>VinhKhiem</h1>
-            <nav class="header_nav">
-                <a href="#" class="header_nav-link">Home</a>
-                <a href="#about" class="header_nav-link">About</a>
-                <a href="#project" class="header_nav-link">Project</a>
-                <a href="#work" class="header_nav-link">Work</a>
-                <a href="#contact" class="header_nav-link">Contact</a>
-            </nav>
-            <div class="header_talk">
-                <p>
-                    Let's Talk
-                </p>
-            </div>
-            <div class="header_icon">
-                <i class="fas fa-bars"></i>
-            </div>
+        <h1>VinhKhiem</h1>
+        <!-- <nav class="header_nav">
+            <a href="#" class="header_nav-link">Home</a>
+            <a href="#about" class="header_nav-link">About</a>
+            <a href="#project" class="header_nav-link">Project</a>
+            <a href="#work" class="header_nav-link">Work</a>
+            <a href="#contact" class="header_nav-link">Contact</a>
+        </nav> -->
+        <ul class="header_nav">
+            <li><a href="#" class="header_nav-link">Home</a></li>
+            <li><a href="#about" class="header_nav-link">About</a></li>
+            <li><a href="#project" class="header_nav-link">Project</a></li>
+            <li><a href="#work" class="header_nav-link">Work</a></li>
+            <li><a href="#contact" class="header_nav-link">Contact</a>
+                <ul class="subnav">
+                    <li><a href="">FaceBook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Github</a></li>
+                </ul>
+            </li>
+            <div class="line"></div>
+        </ul>
+        <div class="header_talk">
+            <p>
+                Let's Talk
+            </p>
+        </div>
+        <div class="header_icon">
+            <i class="fas fa-bars"></i>
         </div>
     </header>
     <div class="content">
@@ -36,7 +48,9 @@
             <div class="grid wide">      
                     <div class="row header_intro">
                         <div class="col l-4 c-12 ">
-                            <img src="./asset/img/IMG_20210509_172819.jpg" alt="" class="img_avatar">
+                            <div class="border_img">
+                                <img src="./asset/img/PhotoRoom-20211228_141106.png" alt="" class="img_avatar">
+                            </div>
                         </div>
                         <div class="col l-8 c-12">
                             <div class="intro_content-header">
@@ -160,13 +174,13 @@
                 <div class="row">
                     <div class="col l-6 c-12">
                         <a href="#" class="project_link">
-                            <div class="project_img">
+                            <div class="project_img2">
                             </div>
                         </a>
                     </div>
                     <div class="col l-6 c-12">
                         <a href="#" class="project_link">
-                            <div class="project_img1">
+                            <div class="project_img3">
                             </div>
                         </a>
                     </div>
@@ -191,7 +205,7 @@
                         <p>Can Tho University</p>
                         <span>Tool:</span>
                         <p>Can use IDEs and source code management applications during work,
-                        some of which include Visual Studio Code, Github and Visula Studio</p>
+                        some of which include Visual Studio Code, Git and Visula Studio</p>
                         <span>Advantages:</span>
                         <p>Ability to learn many new technologies, ability to work in a team</p>
                         <span>Orientation:</span>
@@ -257,12 +271,12 @@
                     </div>
                     <div class="col l-2 c-6 about_tool">
                         <div class="about_tool-item">
-                            <img src="./asset/img/vs-code.jpg" alt="">
+                            <img src="./asset/img/logo-powerdesigner.png" alt="">
                         </div>
                     </div>
                     <div class="col l-2 c-6 about_tool">
                         <div class="about_tool-item">
-                            <img src="./asset/img/vs-code.jpg" alt="">
+                            <img src="./asset/img/images.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -329,10 +343,18 @@
                     </div>
                     <div class="row">
                         <div class="col l-6 l-o-3 c-12 footer_icon">
-                            <i class="fab fa-facebook-square"></i>
-                            <i class="fab fa-instagram-square"></i>
-                            <i class="fab fa-twitter-square"></i>
-                            <i class="fab fa-youtube-square"></i>
+                            <a href="https://facebook.com/khiem.truong.737">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="https://www.instagram.com/">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                            <a href="https://twitter.com/home">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="https://github.com/khiemkr">
+                                <i class="fab fa-github-square"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
